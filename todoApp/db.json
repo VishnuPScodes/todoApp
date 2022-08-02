@@ -1,0 +1,12 @@
+{
+  "todos": [
+    {
+      "todo": "learn redux",
+      "id": 1
+    },
+    {
+      "todo": "learn typescript",
+      "id": 2
+    }
+  ]
+}

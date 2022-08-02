@@ -23,7 +23,7 @@ export const todoReducer=((state=initState,action)=>{
                 ...state,
                 loading:false,
                 errors:false,
-                todo:payload
+                todo:action.payload
             }
         }
         case todoActions.ADD_TODO_FAILURE :{
